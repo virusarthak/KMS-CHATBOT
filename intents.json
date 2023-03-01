@@ -1,0 +1,86 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Hi, there"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi! How may I help you?",
+          "Greetings! How can I be of service?",
+          "Hello there! What can I do for you today?"
+        ]
+      },
+      {
+        "tag": "career",
+        "patterns": [
+          "What job openings do you have at Intech Systems?",
+          "What positions are available at Intech Systems?",
+          "What vacancy are available at Intech Systems?",
+          "How can I apply for a job at Intech Systems?",
+          "What is the hiring process at Intech Systems?",
+          "What are the qualifications for working at Intech Systems?"
+        ],
+        "responses": [
+          "We have various job openings available. Please visit our website for more information. Link for this is :https://intech-systems.com/careers/#view-openings",
+          "We have various vacancy available. Please visit our website for more information. Link for this is :https://intech-systems.com/careers/#view-openings",
+          "Our current job openings can be found on our website or by contacting our HR department. Link for job opening: https://intech-systems.com/careers/#view-openings and for cantacting our recruitment team e-mail at: recruitment@intech-systems.com",
+          "To apply for a job at Intech Systems, please visit our careers page on our website and submit your application. Link for career page: https://intech-systems.com/careers/",
+          "Our hiring process involves a series of interviews and assessments to ensure that we find the best candidate for the job.",
+          "Qualifications for working at Intech Systems vary depending on the position. Please check the job description for specific requirements."
+        ]
+      },
+      {
+        "tag": "skills",
+        "patterns": [
+          "What technical skills are required for a technical consultatnt ?",
+          "What are the essential skills for working at Intech Systems?",
+          "What are the key skills for a project manager ?",
+          "What are the key skills for project lead for business central?",
+          "What are the key skills for SharePoint developer ?",
+          "Whats are the key skills for D365 Finance Consultant?",
+          "What are the key skills for Azure Technical Lead?",
+          "What are the key skills for Azure Data Analystics?",
+          "What are the key skills required for Microsoft Dynamics 365 Business Central Consultant?",
+          "What are the skills required of Business Development Executive role?"
+        ],
+        "responses": [
+          "The technical skills required for a technical consultant at Intech Systems include proficiency in any programming languages such as C programming, C++ Java, C#, or Python and also the knowledge of database.",
+          "Essential skills for working at Intech Systems include excellent communication and teamwork skills, problem-solving ability, and adaptability to changing project requirements.",
+          "Key skills for a project manager at Intech Systems include project management experience, leadership skills, excellent communication, and the ability to manage resources effectively.",
+          "Intech Systems seeks a Project Lead with 5+ years' experience in Dynamics Business Central/Navision, sound knowledge of all modules, experience leading teams of 3-4, and delivering 5+ end-to-end implementations.",
+          "For SharePoint Developer candidates must have experience designing and configuring SharePoint Online applications using CSOM, JSOM, SSOM, SPServices, Office 365, and SPFx. Proficiency in InfoPath Form Development, AngularJS, ReactJS, C#, PowerShell, Microsoft 365, Microsoft 365 SharePoint Online, SharePoint Server (On-Premises), and REST API is essential.",
+          "For D365 Finance Consutant skills refer to the link :https://intech-systems.com/careers/d365-finance-consultant/",
+          "For Azure Technical Lead key skills refer to the link: https://intech-systems.com/careers/azure-technical-lead/",
+          "For Azure Data Analytics key skills refer to the link: https://intech-systems.com/careers/azure-data-analytics/",
+          "Experience as software implementation consultant, ERP knowledge, excellent functional knowledge of SCM, FM, Taxation, inventory, manufacturing cost. MS Office expertise, good business process knowledge, English communication, travel flexibility. Prior US/UK client & Business Central experience preferred.",
+          "For Business Development Executive role candidate must have : Positive attitude and willingness to work, Excellent communication skills , Experience in ERP sales/ CRM sales/ Enterprise software sales shall be preffered and Good to have experience in International Market."
+        ]
+      },
+      {
+        "tag": "qualifications",
+        "patterns": [
+          "What is the educational qualification needed for the  Microsoft Dynamics 365 Business Central Consultant?",
+          "What is the educational qualification for project lead for business central?",
+          "What are the qualifications needed for Azure Data Analytics?",
+          "What are the qualifcations needed for a technical consultant?",
+          "Qualifications need for the Business Development Executive role?"
+        ],
+        "responses": [
+          "For Microsoft Dynamic 365 Business Central Consultant candidate must be a CA.",
+          "For project lead for business central at intech systems candidate must have done: BE Mechanical/Civil/Electronics + Master’s degree/MBA",
+          "For Azure Data Analytics candidate must have done any of these : B. E, B. Tech, MCA, M. Tech, M.S",
+          "For Technical Consultant candidate must have done any of the following: B.E/B.tech(C.E/IT/CSE/EC/EE) or MCA",
+          "For Business Development Executive role candidate must have done MBA or PGDM in marketing, B.B.A, B.E/B.tech. with the knowledge of IT, Sales and Marketing"
+        ]
+      }
+    ]
+  }
+   
