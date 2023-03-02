@@ -1,0 +1,355 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Hi, there"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi! How may I help you?",
+          "Greetings! How can I be of service?",
+          "Hello there! What can I do for you today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Get lost",
+            "Till next time",
+            "bbye"
+        ],
+        "responses": [
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+        ],
+        "responses": [
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+        ]
+      },
+      {
+        "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am KMS, a Deep-Learning chatbot"
+            ]
+      },
+      {
+        "tag": "programmer",
+        "patterns": [
+            "Who made you",
+            "who designed you",
+            "who programmed you"
+        ],
+        "responses": [
+            "I was made by KMS."
+        ]
+      },
+      {
+        "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+      },
+      {
+        "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+      },
+      {
+        "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+      },
+      {
+        "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+      },
+      {
+        "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+      },
+      {
+        "tag": "job openings",
+           "patterns": [
+            "What job openings does Intech Systems have?",
+            "What positions are available?",
+            "What vacancy are available at Intech Systems?"
+           ],
+           "responses": [
+            "We have various job openings available. Please visit our website for more information.\n Link for this is :https://intech-systems.com/careers/#view-openings",
+            "We have various vacancy available. Please visit our website for more information.\n Link for this is :https://intech-systems.com/careers/#view-openings",
+            "Our current job openings can be found on our website. Link for job opening:\n https://intech-systems.com/careers/#view-openings "
+           ]
+      },
+      {
+         "tag":"apply for job",
+            "patterns": [
+                "How can I apply for a job?",
+                "How to apply?",
+                "Process to apply for job?"
+            ],
+            "responses": [
+                "To apply for job send your CV at: recruitment@intech-systems.com" 
+            ]
+      },
+      {
+        "tag": "hiring process",
+          "patterns": [
+             "What is the process of hiring?",
+             "Hiring process"
+          ],
+          "responses": [
+            "1. First you need to send your CV at: recruitment@intech-systems.com \n 2.After shortlisting of the CV, candidates have to go through one Online assesment and the two interview rounds."
+          ]
+      },
+      {
+        "tag":"technical consultant skills",
+          "patterns": [
+            "What technical skills are required for a technical consultatnt ?",
+            "Skills required for technical consultant?",
+            "Required skills for technical consultant?",
+            "What abilities are needed for technical consultant?"
+          ],
+          "responses": [
+             "The skills required for a technical consultant at Intech Systems include proficiency in any programming languages such as C programming, C++ Java, C#, or Python and also the knowledge of database."
+          ] 
+      },
+      {
+        "tag":"project manager skills",
+        "patterns": [
+           "What are the skills required for project manager?",
+           "Skills needed for project manager?",
+           "Project manager key skills?",
+           "Required skills for project manager?",
+           "What abilities are needed for project manager?"
+        ],
+        "responses": [
+            "Key skills for a project manager at Intech Systems include project management experience, leadership skills, excellent communication, and the ability to manage resources effectively."
+        ]
+      },
+      {
+        "tag":"Business central project lead",
+        "patterns": [
+           "What are the skills required for project lead for business central?",
+           "Key skills for Business central project lead?",
+           "Business central project lead required skills?",
+           "What abilities are needed for business central project lead?"
+        ],
+        "responses": [
+            "Intech Systems seeks a Project Lead with 5+ years' experience in Dynamics Business Central/Navision, sound knowledge of all modules, experience leading teams of 3-4, and delivering 5+ end-to-end implementations."
+        ]
+      },
+      {
+        "tag":"SharePoint developer skills",
+        "patterns": [
+           "What are the key skills required for the SharePoint Developer?",
+           "Skills required for SharePoint Developers?",
+           "What abilities are needed for SharePoint Developer?"
+        ],
+        "responses": [
+            "For SharePoint Developer candidates must have experience designing and configuring SharePoint Online applications using CSOM, JSOM, SSOM, SPServices, Office 365, and SPFx. Proficiency in InfoPath Form Development, AngularJS, ReactJS, C#, PowerShell, Microsoft 365, Microsoft 365 SharePoint Online, SharePoint Server (On-Premises), and REST API is essential."
+        ]
+      },
+      {
+        "tag":"D365 Finance Consultant skills",
+        "patterns": [
+           "What are the skills required for D365 Finance Consultant?",
+           "Key skills for D365 Finance Consultant?",
+           "D365 Finance Consultant required skills?",
+           "What abilities are needed for D365 Finance Consultant?" 
+        ],
+        "responses": [
+            "We are seeking a Dynamics 365 Project Operations Functional Consultant with 3+ years of experience in Dynamics 365 CE and Project Operations/Project Service Automation.\n The ideal candidate will have expert knowledge of Dynamics 365 Project Operations or Project Service Automation (PSA) and working knowledge of Power Platform, Azure and related technologies.\n They will lead the delivery team through all stages of the project, be the initial point of contact for customer concerns, and author high-level documentation. Strong communication, client-facing, and interpersonal skills are required.\n For more details you can refer this link https://intech-systems.com/careers/dynamics-365-project-operations-functional-consultant/"
+        ]
+      },
+      {
+        "tag":"Azure Technical Lead Skills",
+        "patterns": [
+            "What are the skills required for Azure Technical Lead?",
+            "Key skills for Azure Technical Lead?",
+            "Azure Technical Lead required skills?",
+            "What abilities are needed for Azure Technical Lead?"      
+        ],
+        "responses": [
+            "2 + years of C#, Web API, .NET (Core and Framework), xUnit, SQL Server\n Microservices and server less architecture with service fabric, functions and api apps, service bus, message queues\n Visual Studio, TFS, VSTS and GIT\n Modular programming in JS, Angular 6/4+, Type Script and other front-end unit testing tools\n Expertise with Azure Active Directory, VNETs, NSGs, ASGs, OAuth and OpenID Connect, Azure traffic manager, CDN, App Gateway and load balancers\n CI/CD, DevSecOps, setting up and managing Build and release pipelines"
+        ]
+      },
+      {
+        "tag":"Azure Data Analystics Skills",
+        "patterns": [
+            "What are the skills required for Azure Data Analystics?",
+            "Key skills for Azure Data Analystics?",
+            "Azure Data Analystics required skills?",
+            "What abilities are needed for Azure Data Analystics?"
+        ],
+        "responses": [
+          "Azure Data Factory, Azure Data Lake, Data Bricks, Python\n Deploying and managing Microsoft Azure technologies (Azure Data Factory, Databricks, Azure SQL DB, Azure SQL DW, Azure Data Lake, Analysis Services, Cosmos DB). \n Experience implementing Azure Data Factory Pipelines using latest technologies and techniques"
+        ]
+      },
+      {
+        "tag":"Business Development Executive Skills",
+        "patterns": [
+            "What are the skills required for Business Development Executive?",
+            "Key skills for Business Development Executive?",
+            "Business Development Executive required skills?",
+            "What abilities are needed for Business Development Executive?",
+            "What are the skills required for BDE?",
+            "Key skills for BDE?",
+            "BDE required skills?",
+            "What abilities are needed for BDE?" 
+        ],
+        "responses": [
+            "For Business Development Executive(BDE) role candidate must have : Positive attitude and willingness to work, Excellent communication skills , Experience in ERP sales/ CRM sales/ Enterprise software sales shall be preffered and Good to have experience in International Market."
+  
+        ]
+      },
+      {
+        "tag":"D365 Business Central Consultant Skills",
+        "patterns": [
+            "What are the skills required for D365 Business Central Consultant?",
+            "Key skills for D365 Business Central Consultant?",
+            "D365 Business Central Consultant required skills?",
+            "What abilities are needed for D365 Business Central Consultant?"
+        ],
+        "responses": [
+            "For D365 Business Central Conusultant candidate must have experience as software implementation consultant, ERP knowledge, excellent functional knowledge of SCM, FM, Taxation, inventory, manufacturing cost. MS Office expertise, good business process knowledge, English communication, travel flexibility. Prior US/UK client & Business Central experience preferred."
+        ]
+      },
+      {
+        "tag":"D365 Business Central Consultant Qualification",
+        "patterns": [
+            "What are the qualification needed for D365 Business Central Consultant?",
+            "Qualification needed for the D365 Business Central Consultant?",
+            "Minimum qualifications required for D365 Business Central?" 
+        ],
+        "responses": [
+            "For Microsoft Dynamic 365 Business Central Consultant candidate must have a CA Degree."
+        ]
+      },
+      {
+        "tag":"Business central project lead qualification",
+        "patterns": [
+            "What are the qualification needed for Business central project lead ?",
+            "Qualification needed for the Business central project lead ?",
+            "Minimum qualifications required for Business central project lead?"
+        ],
+        "responses": [
+            "For project lead for business central at intech systems candidate must have done: BE Mechanical/Civil/Electronics + Master’s degree/MBA"
+        ]
+      },
+      {
+        "tag":"Azure Data Analytics qualification",
+        "patterns": [
+            "What are the qualification needed for Azure Data Analytics?",
+            "Qualification needed for the Azure Data Analytics?",
+            "Minimum qualifications required for Azure Data Analytics?"
+        ],
+        "responses": [
+            "For Azure Data Analytics candidate must have done any of these : B. E, B. Tech, MCA, M. Tech, M.S"
+        ]
+      },
+      {
+        "tag":"technical consultant qualification",
+        "patterns": [
+            "What are the qualification needed for technical consultant?",
+            "Qualification needed for the technical consultant?",
+            "Minimum qualifications required for technical consultant?"
+        ],
+        "responses": [
+            "For Technical Consultant candidate must have done any of the following: B.E/B.tech(C.E/IT/CSE/EC/EE) or MCA"
+        ]
+      },
+      {
+        "tag":"Business Development Executive Qualification",
+        "patterns": [
+            "What are the qualification needed for Business Development Executive?",
+            "Qualification needed for the Business Development Executive?",
+            "Minimum qualifications required for Business Development Executive?",
+            "What are the qualification needed for BDE?",
+            "Qualification needed for the BDE?",
+            "Minimum qualifications required for BDE?"
+        ],
+        "responses": [
+            "For Business Development Executive(BDE) role candidate must have done MBA or PGDM in marketing, B.B.A, B.E/B.tech. with the knowledge of IT, Sales and Marketing"
+        ]
+      },
+      {
+        "tag":"Pre sales Executive Qualification",
+        "patterns": [
+            "What are the qualification needed for Pre sales Executive?",
+            "Qualification needed for the Pre sales Executive?",
+            "Minimum qualifications required for Pre sales Executive?"
+        ],
+        "responses": [
+            "For Pre sales Executive candidate must possess a degree in Computer Science, Engineering or a related fields."
+        ]
+      },
+      {
+        "tag":"Senior Marketing Executive Qualification",
+        "patterns": [
+            "What are the qualification needed for Senior Marketing Executive?",
+            "Qualification needed for the Senior Marketing Executive?",
+            "Minimum qualifications required for Pre sales Executive?"
+        ],
+        "responses": [
+            "For Senior Marketing Executive candidate must have done Bachelor's degree in business, marketing, communication or related field. MBA in marketing or equivalent."
+        ]
+      }
+    ]
+}
